@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-cocoapods-support" version="1.2.13">
+    <name>Cocoapods Support Example</name>
+    <description>An example plugin with Cocoapods support.</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, ios, cocoapods, pod, pods, demo, example</keywords>
+    <author>Carlos "blakgeek" Lawton</author>
+    <repo>https://github.com/flolovebit/cordova-plugin-cocoapods-support</repo>
+    <issue>https://github.com/flolovebit/cordova-plugin-cocoapods-support/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=6.0.0" />
+    </engines>
+
+    <dependency id="Kommunicate"/>
+
+    <platform name="ios">
+        <!-- optionally set minimum ios version and enable use_frameworks! -->
+        <pods-config ios-min-version="12.0" use-frameworks="true"/>
+        <pod id="Kommunicate" />
+    </platform>
+
+</plugin>
