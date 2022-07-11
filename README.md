@@ -1,1 +1,1 @@
-# -cordova-plugin-cocoapods-support-Public
+# -cordova-plugin-cocoapods-support
